@@ -6,13 +6,13 @@ terraform {
   #     name = "test_01"
   #   }
   # }
-   cloud {
-    organization = "Demos_Terraform_associate"
+  #  cloud {
+  #   organization = "Demos_Terraform_associate"
 
-    workspaces {
-      name = "test_01"
-    }
-  }
+  #   workspaces {
+  #     name = "test_01"
+  #   }
+  # }
   required_providers {
     aws = {
       source  = "hashicorp/aws"

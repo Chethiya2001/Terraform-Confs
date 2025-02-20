@@ -2,7 +2,9 @@
 resource "aws_instance" "update_ubuntu_server" {
   ami           = "ami-04b4f1a9cf54c11d0"
   instance_type = var.instance_type
-
+  provisioner "local-exec" {
+    command = "echo ${self.private_ip} >> private_ips.txt"
+  }
   tags = {
     Name = "MyServer-${local.project_name}"
   }
