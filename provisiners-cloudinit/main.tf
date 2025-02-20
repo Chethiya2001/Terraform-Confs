@@ -79,7 +79,7 @@ resource "aws_security_group" "sg_myserver" {
 
 resource "aws_key_pair" "deployer" {
   key_name   = "deployer-key"
-  public_key = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQC6vlrlWOZ2yo9d6CwL8Fj3i0b5k9548yMF2J61oX8u2VYoL/2cP6HMbmpk2pf4fuBEWoX3E70WvDrMoA49K9saMmgqeVUghvz6YYwJoImQRfHQnu7SgxS6SyeMh5M4NGPWoJe3qO5GgbkLuT4TUmDJ2E3kp1p0yBu4FeX/IwBUyEWwuLwi/4GLu3qazLE8B0GmIvtwFhWbTfPufoqk8SNpAkUB1J6SWfuKX/Lu8GtfvczWA2t0AGB9e8ajsQSt5jEY8SDFSA1aMrsTwGSCHiRho0J1BhLZ4fPWRHaoyhlN4LHEr0bT4iBt8ZCpt60CE8M3GZ/YY48t9MCX4ZYfKf3/YeMuyzIa1td8TlSEvfL2y8qOZrLtRYsPA0tx18dK5I5vHyILnereACo2wBb1OPDrVWwOxcEbCJ3BvM+nqgO5tH0FE8Ce6AoyF9rMkbMXB7d0NvfXh2/quMvVqT51Uh0f4iI2iDSmgL4o+BT6kZqX9lVWL7jcJVgLjp03cW7DfH8= user@DESKTOP-DT15GD4"
+  public_key = "#"
 }
 
 
