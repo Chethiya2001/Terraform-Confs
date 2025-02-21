@@ -2,7 +2,7 @@
 
 provider "google" {
   project     = "terraform-gcp-example-451603"
-  credentials = "./terraform-gcp-example-451603-b478f9b4be8d.json"
+ // credentials = ""
   region      = "us-central1"
   zone        = "us-central1-c"
 }
